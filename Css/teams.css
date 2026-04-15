@@ -1,0 +1,80 @@
+.container{
+    display: flex;
+    justify-content: space-evenly;
+}
+.card{
+    background-color: blue;
+    padding: 10px;
+    width: 300px;
+    height: 500;
+    box-shadow: 10px 10px 12px gray;
+    margin-top: 25px;
+}    
+.card:hover{
+    background-color: #cc0000;
+    cursor: pointer;
+    
+}
+
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #ffffff; /* Dark background for a racing theme */
+    color: white;
+   
+}
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 50px;
+    background-color: #000;
+    border-bottom: 2px solid #cc0000; /* Red accent matching your logo */
+}
+.logo-container{
+    height: 60px; /* Adjust based on your image size */
+    width: auto;
+}
+.nav-menu {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+.nav-menu li {
+    margin-left: 30px;
+}
+.nav-menu a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    text-transform: uppercase;
+    transition: color 0.3s;
+}
+.nav-menu a:hover {
+    color: #cc0000; /* Changes to red on hover */
+}
+.title h1{
+    text-align: center;
+    text-transform: uppercase;
+    color: black;
+}
+.container1{
+    display: flex;
+    justify-content: center;
+}
+/* jjhh */
+.footer {
+  background: #0d0d0d;
+  height: 50px;
+  box-sizing: border-box;
+  padding: 5px;
+}
+
+.footer-bottom {
+  /* border-top: 1px solid #222; */
+  text-align: center;
+  
+  
+}
