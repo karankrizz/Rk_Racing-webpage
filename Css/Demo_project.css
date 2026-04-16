@@ -22,8 +22,7 @@
 .nav-menu {
     list-style: none;
     display: flex;
-    margin: 0;
-    padding: 0;
+  
 }
 .nav-menu li {
     margin-left: 30px;
@@ -39,16 +38,11 @@
 }
 .hero-section h1{
     font-size: 3rem;
-    margin-bottom: 10px;
-    padding-top: 20px;
+
 }
 .hero-section {
     text-align: center;
-    background-image: url(/Assets/john\ wick\ wallpaper.jpeg);
-    /* background-color: #b9bdc4; */
-    height: 560px;
-    background-size: cover;
-    padding-top:100px ;
+
 }
 /* jjhh */
 .footer {
