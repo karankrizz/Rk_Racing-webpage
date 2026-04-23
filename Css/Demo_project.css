@@ -6,7 +6,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 11px 50px;
+  padding: 10px 20px;
   width: 100%;
   background-color: transparent;
   position: absolute;
@@ -32,7 +32,7 @@
   text-transform: uppercase;
 }
 .nav-menu a:hover {
-   color: #ff4d24; /* Changes to red on hover */
+  color: #ff4d24; /* Changes to red on hover */
 }
 /* video{
     width: 100%;
@@ -62,7 +62,7 @@
   text-align: center;
 }
 /* footer */
-.row {
+.frow {
   display: flex;
   justify-content: space-around;
 }
@@ -135,4 +135,11 @@ main {
 .footer-bottom > p {
   text-align: center;
   margin: 45px 0px 10px;
+}
+.scl svg {
+  margin-right: 5px;
+}
+.scl svg:hover {
+  color: white;
+  cursor: pointer;
 }

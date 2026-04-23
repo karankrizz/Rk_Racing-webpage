@@ -1,7 +1,7 @@
 body {
   margin: 0;
   padding: 0;
-
+  font-family: Arial, Helvetica, sans-serif;
   background-color: #ffffff; /* Dark background for a racing theme */
   color: white;
 }
@@ -9,7 +9,7 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 10px 50px;
+  padding: 10px 20px;
   background-color: transparent;
 }
 .logo-container {
@@ -37,7 +37,7 @@ body {
   color: #ff4d24;
 }
 .h-bottom {
-  padding: 25px 85px;
+  padding: 25px 58px;
   background-color: #f3f3f3;
 }
 .h-bottom a {
@@ -56,26 +56,27 @@ body {
   padding-left: 10px;
 }
 .sec {
-  margin: 50px 185px 0;
+  margin: 50px 212px 0;
 }
 .sec1 {
-  margin: 50px 185px 100px;
+  margin: 50px 212px 100px;
 }
 .title h2 {
   text-align: start;
   text-transform: uppercase;
   color: rgb(0, 0, 0);
   font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
-  letter-spacing: 1px;
+  letter-spacing: 1.5px;
   border-left: 5px solid red;
-  margin-left: 55px;
   padding-left: 10px;
+  font-weight: 100;
+}
+.title p{
+  color: #9a9a9a;
 }
 .container {
   display: flex;
   justify-content: start;
-  margin-left: 55px;
-  padding-left: 10px;
 }
 
 .card {
@@ -113,12 +114,7 @@ body {
   font-family: monospace;
   padding: 5px;
 }
-header {
-  font-family: Arial, sans-serif;
-}
-main {
-  font-family: Arial, sans-serif;
-}
+
 /* footer */
 footer {
   background-color: #0d0d0d;
@@ -132,7 +128,7 @@ footer {
 footer h5 {
   color: white;
 }
-.row {
+.frow {
   display: flex;
   justify-content: space-around;
 }
@@ -188,4 +184,33 @@ footer h5 {
 .footer-bottom p {
   text-align: center;
   margin: 45px 0px 10px;
+}
+.scl svg {
+  margin-right: 5px;
+}
+.scl svg:hover {
+  color: white;
+  cursor: pointer;
+}
+
+
+
+html {
+  scroll-behavior:smooth;
+}
+#topBtn{
+  background-color: transparent;
+  color: #ffffff;
+  position: fixed;
+  bottom: 30px;
+  right: 30px;
+  border: none;
+  border-radius: 50%;
+  height: 60px;
+  width: 60px;
+  transition: all 0.3s ease-in;
+}
+#topBtn:hover{
+ background-color: #ff4d24;
+ transform: scale(1.1);
 }
