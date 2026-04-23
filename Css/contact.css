@@ -1,0 +1,142 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #0d0d0d;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  background-color: transparent;
+}
+.logo-container {
+  height: 60px; /* Adjust based on your image size */
+  width: auto;
+}
+
+.nav-menu {
+  list-style: none;
+  display: flex;
+  margin: 0;
+  padding: 0;
+}
+.nav-menu li {
+  margin-left: 30px;
+}
+.nav-menu a {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+  text-transform: uppercase;
+  transition: color 0.3s;
+}
+.nav-menu a:hover {
+  color: #ff4d24;
+}
+.h-bottom {
+  padding: 25px 58px;
+  background-color:#161616;
+}
+.h-bottom a {
+  text-decoration: none;
+  color:#9a9a9a;
+  letter-spacing: 1px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  text-transform: uppercase;
+}
+.h-bottom a:hover {
+  color: #ff4d24;
+}
+.brdr {
+  border-left: 3px solid #ff4d24;
+  margin-left: 10px;
+  padding-left: 10px;
+}
+.h-bottom title{
+        margin: 5px 0px;
+        font-size: 70px;
+}
+/* footer */
+footer {
+  background-color: #0d0d0d;
+  color: #9a9a9a;
+  margin: 55px 0px 0px;
+  padding: 50px 50px 10px;
+  font-family:
+    "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans",
+    Arial, sans-serif;
+}
+footer h5 {
+  color: white;
+}
+.frow {
+  display: flex;
+  justify-content: space-around;
+}
+.f-logo {
+  width: 500px;
+}
+
+.f-logo > p {
+  margin-top: 10px;
+}
+.qklnk > h5 {
+  margin-bottom: 10px;
+}
+.qklnk ul {
+  padding: 0;
+}
+.qklnk li {
+  list-style-type: none;
+  line-height: 24px;
+}
+.qklnk li:hover {
+  list-style-type: square;
+  color: #ff4d24;
+}
+.qklnk a {
+  text-decoration: none;
+  color: #9a9a9a;
+  letter-spacing: 1.5px;
+  font-size: 14px;
+}
+.qklnk a:hover {
+  color: white;
+}
+.c-address h5 {
+  margin-bottom: 10px;
+}
+.whyt {
+  color: white;
+}
+.clr {
+  color: #abb8c3;
+  margin-top: 8px;
+}
+.scl h5 {
+  margin-bottom: 10px;
+}
+.pst {
+  margin-top: 10px;
+}
+.hvr:hover {
+  color: white;
+}
+.footer-bottom p {
+  text-align: center;
+  margin: 45px 0px 10px;
+}
+.scl svg {
+  margin-right: 5px;
+}
+.scl svg:hover {
+  color: white;
+  cursor: pointer;
+}
+
+html {
+  scroll-behavior: smooth;
+}
