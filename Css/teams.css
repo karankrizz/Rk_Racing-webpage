@@ -1,100 +1,191 @@
-.container{
-    display: flex;
-    justify-content: space-evenly;
-}
-.card{
-    background-color: rgb(255, 0, 0);
-    padding: 10px;
-    width: 300px;
-    height: 450px;
-    box-shadow: 10px 10px 12px gray;
-    margin-top: 25px;
-    transition: transform 0.3s ease-in-out;
-}    
-.card:hover{
-    background-color: #cc0000;
-    cursor: pointer;
-    transform: scale(1.05);
-    
-}
-
-
 body {
-    margin: 0;
-    padding: 0;
-    font-family: Arial, sans-serif;
-    background-color:#ffffff; /* Dark background for a racing theme */
-    color: white;
-   
+  margin: 0;
+  padding: 0;
+
+  background-color: #ffffff; /* Dark background for a racing theme */
+  color: white;
 }
 .navbar {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 10px 50px;
-    background-color: #000;
-    border-bottom: 2px solid #cc0000; /* Red accent matching your logo */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 50px;
+  background-color: transparent;
 }
-.logo-container{
-    height: 60px; /* Adjust based on your image size */
-    width: auto;
+.logo-container {
+  height: 60px; /* Adjust based on your image size */
+  width: auto;
 }
+
 .nav-menu {
-    list-style: none;
-    display: flex;
-    margin: 0;
-    padding: 0;
+  list-style: none;
+  display: flex;
+  margin: 0;
+  padding: 0;
 }
 .nav-menu li {
-    margin-left: 30px;
+  margin-left: 30px;
 }
 .nav-menu a {
-    text-decoration: none;
-    color: white;
-    font-weight: bold;
-    text-transform: uppercase;
-    transition: color 0.3s;
+  text-decoration: none;
+  color: rgb(0, 0, 0);
+  font-weight: bold;
+  text-transform: uppercase;
+  transition: color 0.3s;
 }
 .nav-menu a:hover {
-    color: #cc0000; /* Changes to red on hover */
+  color: #ff4d24;
 }
-.title h1{
-    text-align: center;
-    text-transform: uppercase;
-    color: black;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    letter-spacing: 1px;
+.h-bottom {
+  padding: 25px 85px;
+  background-color: #f3f3f3;
+}
+.h-bottom a {
+  text-decoration: none;
+  color: #9a9a9a;
+  letter-spacing: 1px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  text-transform: uppercase;
+}
+.h-bottom a:hover {
+  color: #ff4d24;
+}
+.brdr {
+  border-left: 3px solid #ff4d24;
+  margin-left: 10px;
+  padding-left: 10px;
+}
+.sec {
+  margin: 50px 185px 0;
+}
+.sec1 {
+  margin: 50px 185px 100px;
+}
+.title h2 {
+  text-align: start;
+  text-transform: uppercase;
+  color: rgb(0, 0, 0);
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  letter-spacing: 1px;
+  border-left: 5px solid red;
+  margin-left: 55px;
+  padding-left: 10px;
+}
+.container {
+  display: flex;
+  justify-content: start;
+  margin-left: 55px;
+  padding-left: 10px;
 }
 
-/* jjhh */
-.footer {
-  background: #0d0d0d;
-  height: 50px;
-  
+.card {
+  background-color: rgb(255, 0, 0);
+  padding: 10px;
+  width: 300px;
+  margin-right: 100px;
+  height: 450px;
+  box-shadow: 10px 10px 12px gray;
+  margin-top: 25px;
+  transition: transform 0.3s ease-in-out;
+}
+.card:hover {
+  background-color: #cc0000;
+  cursor: pointer;
+  transform: scale(1.05);
 }
 
-.footer-bottom >p {
+.card h3 {
+  font-family:
+    "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans",
+    Arial, sans-serif;
+  letter-spacing: 1px;
+}
+
+.change {
+  font-family:
+    "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans",
+    Arial, sans-serif;
+}
+
+.change:hover {
+  box-shadow: 2px 2px 15px rgb(254, 254, 0);
+  background-color: black;
+  font-family: monospace;
+  padding: 5px;
+}
+header {
+  font-family: Arial, sans-serif;
+}
+main {
+  font-family: Arial, sans-serif;
+}
+/* footer */
+footer {
+  background-color: #0d0d0d;
+  color: #9a9a9a;
+  margin: 55px 0px 0px;
+  padding: 50px 50px 10px;
+  font-family:
+    "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans",
+    Arial, sans-serif;
+}
+footer h5 {
+  color: white;
+}
+.row {
+  display: flex;
+  justify-content: space-around;
+}
+.f-logo {
+  width: 500px;
+}
+
+.f-logo > p {
+  margin-top: 10px;
+}
+.qklnk > h5 {
+  margin-bottom: 10px;
+}
+.qklnk ul {
+  padding: 0;
+}
+.qklnk li {
+  list-style-type: none;
+  line-height: 24px;
+}
+.qklnk li:hover {
+  list-style-type: square;
+  color: #ff4d24;
+}
+.qklnk a {
+  text-decoration: none;
+  color: #9a9a9a;
+  letter-spacing: 1.5px;
+  font-size: 14px;
+}
+.qklnk a:hover {
+  color: white;
+}
+.c-address h5 {
+  margin-bottom: 10px;
+}
+.whyt {
+  color: white;
+}
+.clr {
+  color: #abb8c3;
+  margin-top: 8px;
+}
+.scl h5 {
+  margin-bottom: 10px;
+}
+.pst {
+  margin-top: 10px;
+}
+.hvr:hover {
+  color: white;
+}
+.footer-bottom p {
   text-align: center;
-  margin-top: 100px;
-  padding: 15px;
-
-
-  
-  
-}
-.change{
-    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    
-}
-
-
-.change:hover{
-    box-shadow: 2px 2px 15px rgb(254, 254, 0);
-    background-color: black;
-    font-family: monospace;
-    padding: 5px;
-}
-.card h3{
-    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    letter-spacing: 1px;
+  margin: 45px 0px 10px;
 }
