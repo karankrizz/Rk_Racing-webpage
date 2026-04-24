@@ -195,9 +195,9 @@ footer h5 {
 
 
 
-html {
-  scroll-behavior:smooth;
-}
+ html {
+   scroll-behavior:smooth; 
+} 
 #topBtn{
   background-color: transparent;
   color: #ffffff;

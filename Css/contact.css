@@ -38,11 +38,11 @@ body {
 }
 .h-bottom {
   padding: 25px 58px;
-  background-color:#161616;
+  background-color: #161616;
 }
 .h-bottom a {
   text-decoration: none;
-  color:#9a9a9a;
+  color: #9a9a9a;
   letter-spacing: 1px;
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
   text-transform: uppercase;
@@ -55,9 +55,19 @@ body {
   margin-left: 10px;
   padding-left: 10px;
 }
-.h-bottom title{
-        margin: 5px 0px;
-        font-size: 70px;
+.h-bottom .title {
+  font-size: 35px;
+  font-family: Verdana, sans-serif;
+}
+.form .title > h2 {
+  font-size: 35px;
+  font-family: "Courier New", Courier, monospace;
+  text-transform: uppercase;
+  padding: 5px 58px 0px;
+}
+.form .title > p {
+  color: #9a9a9a;
+  padding: 2px 58px;
 }
 /* footer */
 footer {
