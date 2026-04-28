@@ -1,3 +1,3 @@
-# credoproject_1
+# RK RACING WEBSITE
 
-- build a webpage using menu and logo also use css to design 
+- This webpage is based on a car racing team  website 
