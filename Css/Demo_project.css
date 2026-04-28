@@ -1,7 +1,11 @@
-* {
+body {
   margin: 0;
   padding: 0;
+  background-color: #0d0d0d;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
 }
+
 .navbar {
   display: flex;
   justify-content: space-between;
@@ -64,16 +68,16 @@
 /* footer */
 .frow {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
 }
 .f-logo {
   width: 500px;
 }
-
+/* footer */
 footer {
   background-color: #0d0d0d;
   color: #9a9a9a;
-  padding: 50px 50px 10px;
+  padding: 50px 58px 10px;
   font-family:
     "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans",
     Arial, sans-serif;
@@ -81,17 +85,30 @@ footer {
 footer h5 {
   color: white;
 }
-header {
-  font-family: Arial, sans-serif;
+.frow {
+  display: flex;
+  justify-content: space-between;
 }
-main {
-  font-family: Arial, sans-serif;
+.f-logo {
+  width: 500px;
 }
+
 .f-logo > p {
   margin-top: 10px;
 }
 .qklnk > h5 {
   margin-bottom: 10px;
+}
+.qklnk ul {
+  padding: 0;
+}
+.qklnk li {
+  list-style-type: none;
+  line-height: 24px;
+}
+.qklnk li:hover {
+  list-style-type: square;
+  color: #ff4d24;
 }
 .qklnk a {
   text-decoration: none;
@@ -102,37 +119,26 @@ main {
 .qklnk a:hover {
   color: white;
 }
-.qklnk li {
-  list-style-type: none;
-  line-height: 24px;
-}
-.qklnk li:hover {
-  list-style-type: square;
-  color: #ff4d24;
-}
 .c-address h5 {
-  margin-bottom: 10px;
-}
-.scl h5 {
   margin-bottom: 10px;
 }
 .whyt {
   color: white;
 }
-.hvr:hover {
-  color: white;
-}
-.pst {
-  margin-top: 10px;
-}
 .clr {
   color: #abb8c3;
   margin-top: 8px;
 }
-.qklnk ul {
-  padding: 0;
+.scl h5 {
+  margin-bottom: 10px;
 }
-.footer-bottom > p {
+.pst {
+  margin-top: 10px;
+}
+.hvr:hover {
+  color: white;
+}
+.footer-bottom p {
   text-align: center;
   margin: 45px 0px 10px;
 }
@@ -142,4 +148,9 @@ main {
 .scl svg:hover {
   color: white;
   cursor: pointer;
+}
+
+
+html {
+  scroll-behavior: smooth;
 }

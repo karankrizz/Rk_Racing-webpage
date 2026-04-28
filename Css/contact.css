@@ -13,7 +13,7 @@ body {
   background-color: transparent;
 }
 .logo-container {
-  height: 60px; /* Adjust based on your image size */
+  height: 60px;
   width: auto;
 }
 
@@ -59,22 +59,20 @@ body {
   font-size: 35px;
   font-family: Verdana, sans-serif;
 }
-.form .title > h2 {
-  font-size: 35px;
-  font-family: "Courier New", Courier, monospace;
+.lft-clm{
+    padding: 5px 58px 0px;
+}
+.lft-clm> h2 {
+   font-family: "Courier New", Courier, monospace;
   text-transform: uppercase;
-  padding: 5px 58px 0px;
 }
-.form .title > p {
-  color: #9a9a9a;
-  padding: 2px 58px;
-}
+
 /* footer */
 footer {
   background-color: #0d0d0d;
   color: #9a9a9a;
   margin: 55px 0px 0px;
-  padding: 50px 50px 10px;
+  padding: 50px 58px 10px;
   font-family:
     "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans",
     Arial, sans-serif;
@@ -84,7 +82,7 @@ footer h5 {
 }
 .frow {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
 }
 .f-logo {
   width: 500px;
@@ -124,7 +122,9 @@ footer h5 {
 }
 .clr {
   color: #abb8c3;
-  margin-top: 8px;
+}
+.clr1{
+  color: #9a9a9a;
 }
 .scl h5 {
   margin-bottom: 10px;

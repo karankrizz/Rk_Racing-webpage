@@ -120,7 +120,7 @@ footer {
   background-color: #0d0d0d;
   color: #9a9a9a;
   margin: 55px 0px 0px;
-  padding: 50px 50px 10px;
+  padding: 50px 58px 10px;
   font-family:
     "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans",
     Arial, sans-serif;
@@ -130,7 +130,7 @@ footer h5 {
 }
 .frow {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
 }
 .f-logo {
   width: 500px;
@@ -194,10 +194,10 @@ footer h5 {
 }
 
 
+html {
+  scroll-behavior: smooth;
+}
 
- html {
-   scroll-behavior:smooth; 
-} 
 #topBtn{
   background-color: transparent;
   color: #ffffff;
