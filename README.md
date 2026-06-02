@@ -99,7 +99,7 @@ The main goal of this project is to strengthen my front-end development skills b
 
 ### R. Kirubhakaran
 
-Passionate about front-end development, UI design, and creative web experiences inspired by motorsports.
+Passionate about front-end development and currently expanding my skills in Java Full Stack Development.
 
 ---
 
