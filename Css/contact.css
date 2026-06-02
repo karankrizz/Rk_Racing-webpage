@@ -60,7 +60,7 @@ body {
   font-family: Verdana, sans-serif;
 }
 .lft-clm {
-  padding: 5px 0px 0px 161px;
+  padding: 25px 58px;
   width: 700px;
 }
 .right-clm {
@@ -69,35 +69,35 @@ body {
 }
 .lft-clm > h2 {
   font-size: 35px;
-  font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif, sans-serif;
+  font-family:
+    Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif, sans-serif;
   text-transform: uppercase;
   letter-spacing: 1px;
   font-weight: 400;
 }
 .col2 {
   display: flex;
-  padding: 5px 58px 0px;
   gap: 100px;
 }
-.flx-cl{
+.flx-cl {
   display: flex;
   justify-content: space-around;
 }
-.col2  h4 {
-  font-family: "Courier New", Courier, monospace;
+.col2 h4 {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
   text-transform: uppercase;
+  letter-spacing: 1px;
 }
-.red{
+.red {
   color: red;
 }
-.fnt{
-    font-family: "Courier New", Courier, monospace;
-
+.fnt {
+  font-family: "Courier New", Courier, monospace;
 }
 /* footer */
 footer {
   background-color: #0d0d0d;
-  color: #9a9a9a;
+  background-color: #161616;
   margin: 55px 0px 0px;
   padding: 50px 58px 10px;
   font-family:
@@ -159,6 +159,9 @@ footer h5 {
 .pst {
   margin-top: 10px;
 }
+.hvr {
+  color: #9a9a9a;
+}
 .hvr:hover {
   color: white;
 }
@@ -168,6 +171,7 @@ footer h5 {
 }
 .scl svg {
   margin-right: 5px;
+  color: #9a9a9a;
 }
 .scl svg:hover {
   color: white;
