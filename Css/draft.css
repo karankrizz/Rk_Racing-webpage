@@ -1,9 +1,12 @@
+* {
+  font-family: "Oxanium", sans-serif;
+
+}
 body {
   margin: 0;
   padding: 0;
   background-color: #0d0d0d;
   color: white;
-  font-family: Arial, Helvetica, sans-serif;
 }
 .navbar {
   display: flex;
@@ -44,7 +47,6 @@ body {
   text-decoration: none;
   color: #9a9a9a;
   letter-spacing: 1px;
-  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
   text-transform: uppercase;
 }
 .h-bottom a:hover {
@@ -57,7 +59,6 @@ body {
 }
 .h-bottom .title {
   font-size: 35px;
-  font-family: Verdana, sans-serif;
 }
 .lft-clm {
   padding: 5px 0px 0px 161px;
@@ -69,7 +70,6 @@ body {
 }
 .lft-clm > h2 {
   font-size: 35px;
-  font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif, sans-serif;
   text-transform: uppercase;
   letter-spacing: 1px;
   font-weight: 400;
@@ -79,20 +79,17 @@ body {
   padding: 5px 58px 0px;
   gap: 100px;
 }
-.flx-cl{
+.flx-cl {
   display: flex;
   justify-content: space-around;
 }
-.col2  h4 {
-  font-family: "Courier New", Courier, monospace;
+.col2 h4 {
   text-transform: uppercase;
 }
-.red{
+.red {
   color: red;
 }
-.fnt{
-    font-family: "Courier New", Courier, monospace;
-
+.fnt {
 }
 /* footer */
 footer {
@@ -100,9 +97,7 @@ footer {
   color: #9a9a9a;
   margin: 55px 0px 0px;
   padding: 50px 58px 10px;
-  font-family:
-    "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans",
-    Arial, sans-serif;
+
 }
 footer h5 {
   color: white;
