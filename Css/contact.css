@@ -64,8 +64,9 @@ body {
   width: 700px;
 }
 .right-clm {
-  padding: 5px 0px 0px 161px;
+  padding: 45px 0px 0px 100px;
   width: 700px;
+  text-transform: uppercase;
 }
 .lft-clm > h2 {
   font-size: 35px;
@@ -92,7 +93,31 @@ body {
   color: red;
 }
 .fnt {
-  font-family: "Courier New", Courier, monospace;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  letter-spacing: 1px;
+}
+input {
+  height: 46px;
+  width: 550px;
+  border-radius: 9px;
+  background-color: transparent;
+  margin-bottom: 25px;
+  margin-top: 10px;
+}
+textarea {
+  height: 90px;
+  width: 550px;
+  border-radius: 9px;
+  background-color: transparent;
+  margin-bottom: 25px;
+  margin-top: 10px;
+  color: #9a9a9a;
+}
+textarea:hover {
+  background-color: white;
+}
+input:hover {
+  background-color: white;
 }
 /* footer */
 footer {
