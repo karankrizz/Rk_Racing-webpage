@@ -16,7 +16,17 @@ body {
   height: 60px;
   width: auto;
 }
-
+button {
+  background-color: #ff4d24;
+  width: 550px;
+  height: 35px;
+  border-radius: 10px;
+  text-transform: uppercase;
+  color: white;
+  font-weight: 800;
+  font-size: medium;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
 .nav-menu {
   list-style: none;
   display: flex;
@@ -101,6 +111,7 @@ input {
   width: 550px;
   border-radius: 9px;
   background-color: transparent;
+  color:aliceblue;
   margin-bottom: 25px;
   margin-top: 10px;
 }
@@ -111,13 +122,17 @@ textarea {
   background-color: transparent;
   margin-bottom: 25px;
   margin-top: 10px;
-  color: #9a9a9a;
+    color:aliceblue;
+
 }
 textarea:hover {
   background-color: white;
+    color: #0d0d0d;
+
 }
 input:hover {
   background-color: white;
+  color: #0d0d0d;
 }
 /* footer */
 footer {
